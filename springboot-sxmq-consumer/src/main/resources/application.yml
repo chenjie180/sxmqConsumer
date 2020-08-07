@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: 192.168.1.133
+    port: 5672
+    username: root
+    password: root123.
+    listener:
+      type: simple
+      simple:
+        acknowledge-mode: manual
+server:
+  port: 8086
